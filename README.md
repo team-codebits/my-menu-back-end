@@ -8,10 +8,20 @@ Clone o repositório
   git clone https://github.com/team-codebits/my-menu-back-end.git
 ```
 
-Atualize as dependências
+Instale as dependências
 
 ```bash
-  composer update
+  composer install
+```
+
+Copie o arquivo .env.example
+```bash
+  cp .env.example .env
+```
+
+Gere a chave da aplicação
+```bash
+  php artisan key:generate
 ```
 
 Execute o servidor
