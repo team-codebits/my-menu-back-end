@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 
+//? Controller para o CRUD de usuários
 class UsersController extends Controller
 {
     public function index()
